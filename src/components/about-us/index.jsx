@@ -31,7 +31,7 @@ const index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2 className="mt0">Our Mission Is To FindHouse For Exchange Or Book</h2>
+                <h2 className="mt0">Our Mission Is To FindHouse</h2>
               </div>
             </div>
           </div>
