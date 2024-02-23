@@ -28,7 +28,7 @@ const GlobalHeroFilter = ({ className = "" }) => {
             aria-controls="pills-profile"
             aria-selected="false"
           >
-            Rent
+            Book
           </a>
         </li>
       </ul>

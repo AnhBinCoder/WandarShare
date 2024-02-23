@@ -82,12 +82,6 @@ const LoginSignup = () => {
 
                   <div className="row mt25">
                     <div className="col-lg-12">
-                      <button type="submit" className="btn btn-fb w-100">
-                        <i className="fa fa-facebook float-start mt5"></i> Login
-                        with Facebook
-                      </button>
-                    </div>
-                    <div className="col-lg-12">
                       <button type="submit" className="btn btn-googl w-100">
                         <i className="fa fa-google float-start mt5"></i> Login
                         with Google
@@ -193,12 +187,6 @@ const LoginSignup = () => {
 
                 <form action="#">
                   <div className="row ">
-                    <div className="col-lg-12">
-                      <button type="submit" className="btn btn-fb w-100">
-                        <i className="fa fa-facebook float-start mt5"></i> Login
-                        with Facebook
-                      </button>
-                    </div>
                     <div className="col-lg-12">
                       <button type="submit" className="btn btn-googl w-100">
                         <i className="fa fa-google float-start mt5"></i> Login
