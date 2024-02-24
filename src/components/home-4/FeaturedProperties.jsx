@@ -46,7 +46,11 @@ const FeaturedProperties = () => {
             <div className="feat_property home3">
               <div className="thumb">
                 <img
+<<<<<<< HEAD
 
+=======
+                 
+>>>>>>> parent of 6eebdbf (second commit)
                   className="img-whp w-100 h-100 cover"
                   src={item.img}
                   alt="fp1.jpg"
@@ -77,8 +81,13 @@ const FeaturedProperties = () => {
                     to={`/listing-details-v1/${item.id}`}
                     className="fp_price"
                   >
+<<<<<<< HEAD
                     {item.price} VND
                     <small>/week</small>
+=======
+                    ${item.price}
+                    <small>/mo</small>
+>>>>>>> parent of 6eebdbf (second commit)
                   </Link>
                 </div>
               </div>

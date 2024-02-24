@@ -11,7 +11,11 @@ const HotProperties = () => {
             <div className="feat_property home7 style2">
               <div className="thumb">
                 <img
+<<<<<<< HEAD
 
+=======
+                 
+>>>>>>> parent of 6eebdbf (second commit)
                   className="img-whp w-100 h-100 cover"
                   src={item.img}
                   alt="fp1.jpg"
@@ -37,8 +41,13 @@ const HotProperties = () => {
                     </li>
                   </ul>
                   <a className="fp_price" href="#">
+<<<<<<< HEAD
                     {item.price} VND
                     <small>/week</small>
+=======
+                    ${item.price}
+                    <small>/mo</small>
+>>>>>>> parent of 6eebdbf (second commit)
                   </a>
                 </div>
               </div>

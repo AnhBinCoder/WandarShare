@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> parent of 6eebdbf (second commit)
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
@@ -57,8 +62,13 @@ const HeroSlider = () => {
           <div className="container">
             <div className="home-content position-relative text-center p0">
               <h2 className="banner_top_title">
+<<<<<<< HEAD
                 {item.price} VND
                 <small>/week</small>
+=======
+                ${item.price}
+                <small>/mo</small>
+>>>>>>> parent of 6eebdbf (second commit)
               </h2>
               <h3 className="banner-title">{item.title}</h3>
               <ul className="prop_details ">

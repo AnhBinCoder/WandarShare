@@ -9,7 +9,11 @@ import properties from "@/data/properties";
 import DetailsContent from "@/components/listing-details-v1/DetailsContent";
 import Sidebar from "@/components/listing-details-v1/Sidebar";
 import ListingTwo from "@/components/listing-single/ListingTwo";
+<<<<<<< HEAD
 import { useParams } from 'react-router-dom'
+=======
+import {useParams} from 'react-router-dom'
+>>>>>>> parent of 6eebdbf (second commit)
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
@@ -28,7 +32,11 @@ const ListingDynamicDetailsV2 = () => {
 
   return (
     <>
+<<<<<<< HEAD
       <MetaComponent meta={metadata} />
+=======
+        <MetaComponent meta={metadata} />
+>>>>>>> parent of 6eebdbf (second commit)
       {/* <!-- Main Header Nav --> */}
       <Header />
 
@@ -41,7 +49,11 @@ const ListingDynamicDetailsV2 = () => {
       {/* <!-- Listing Single Property --> */}
 
       <ListingTwo property={property} />
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> parent of 6eebdbf (second commit)
 
       {/* <!-- Agent Single Grid View --> */}
       <section className="our-agent-single bgc-f7 pb30-991">
@@ -57,7 +69,11 @@ const ListingDynamicDetailsV2 = () => {
                   <div className="price">
                     <h2>
                       ${property.price}
+<<<<<<< HEAD
                       <small>/week</small>
+=======
+                      <small>/mo</small>
+>>>>>>> parent of 6eebdbf (second commit)
                     </h2>
                   </div>
                 </div>

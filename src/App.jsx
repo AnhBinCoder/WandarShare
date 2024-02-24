@@ -5,6 +5,15 @@ import "../public/assets/scss/index.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages";
+import HomePage3 from "./pages/homes/home-3";
+import HomePage4 from "./pages/homes/home-4";
+import HomePage5 from "./pages/homes/home-5";
+import HomePage6 from "./pages/homes/home-6";
+import HomePage7 from "./pages/homes/home-7";
+import HomePage8 from "./pages/homes/home-8";
+import HomePage9 from "./pages/homes/home-9";
+import HomePage10 from "./pages/homes/home-10";
+import HomePage2 from "./pages/homes/home-2";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 import ListingGridPage1 from "./pages/listings/listing-grid-v1";
 import ListingGridPage2 from "./pages/listings/listing-grid-v2";
@@ -49,6 +58,9 @@ import Agentv2Page from "./pages/agent/agent-v2";
 import AgentDetailsDynamic from "./pages/agent/agent-details";
 import BlogDetails from "./pages/blogs/blog-details";
 import ListingDynamicDetailsV1 from "./pages/listing-details/listing-details-v1";
+import ListingDynamicDetailsV2 from "./pages/listing-details/listing-details-v2";
+import ListingDetailsPage3 from "./pages/listing-details/listing-details-v3";
+import ListingDetailsPage4 from "./pages/listing-details/listing-details-v4";
 import ListingPage1 from "./pages/listings/listing-list-v1";
 
 if (typeof window !== "undefined") {
@@ -63,6 +75,15 @@ function App() {
           <Routes>
             <Route path="/">
               <Route index element={<Home />} />
+              <Route path="home-2" element={<HomePage2 />} />
+              <Route path="home-3" element={<HomePage3 />} />
+              <Route path="home-4" element={<HomePage4 />} />
+              <Route path="home-5" element={<HomePage5 />} />
+              <Route path="home-6" element={<HomePage6 />} />
+              <Route path="home-7" element={<HomePage7 />} />
+              <Route path="home-8" element={<HomePage8 />} />
+              <Route path="home-9" element={<HomePage9 />} />
+              <Route path="home-10" element={<HomePage10 />} />
 
               <Route path="listing-grid-v1" element={<ListingGridPage1 />} />
               <Route path="listing-grid-v2" element={<ListingGridPage2 />} />
@@ -81,6 +102,18 @@ function App() {
               <Route
                 path="listing-details-v1/:id"
                 element={<ListingDynamicDetailsV1 />}
+              />
+              <Route
+                path="listing-details-v2/:id"
+                element={<ListingDynamicDetailsV2 />}
+              />
+              <Route
+                path="listing-details-v3"
+                element={<ListingDetailsPage3 />}
+              />
+              <Route
+                path="listing-details-v4"
+                element={<ListingDetailsPage4 />}
               />
 
               <Route path="map-header" element={<MapHeaderPage />} />

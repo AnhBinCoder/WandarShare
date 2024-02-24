@@ -40,8 +40,13 @@ const BestProperties = () => {
                     to={`/listing-details-v1/${item.id}`}
                     className="fp_price"
                   >
+<<<<<<< HEAD
                     {item.price} VND
                     <small>/week</small>
+=======
+                    ${item.price}
+                    <small>/mo</small>
+>>>>>>> parent of 6eebdbf (second commit)
                   </Link>
                 </div>
               </div>
